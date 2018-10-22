@@ -15,5 +15,10 @@ const addToList  =  () => {
 
     todoList.appendChild(item);
     list.push(newTask.value);
+
+
+    // Reset the text
+
+    newTask.value = '';
 }
 

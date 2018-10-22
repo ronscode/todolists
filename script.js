@@ -7,18 +7,6 @@
 */
 
 
-function todoList() {
-    var item = document.getElementById("todoInput").value
-    var text = document.createTextNode(item)
-    var newItem = document.createElement("li")
-    newItem.appendChild(text)
-    document.getElementById("todoList").appendChild(newItem)
-}
-
-
-
-
-// MY COMMENTS FOR CODE I HAVEN'T WRITTEN: 
 // Variable to hold new to do list items
 
 
@@ -28,3 +16,14 @@ function todoList() {
 // Code to add new li to list
 
 
+
+
+
+
+// function todoList() {
+//     var item = document.getElementById("todoInput").value
+//     var text = document.createTextNode(item)
+//     var newItem = document.createElement("li")
+//     newItem.appendChild(text)
+//     document.getElementById("todoList").appendChild(newItem)
+// }
